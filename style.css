@@ -1,0 +1,123 @@
+body, html{
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+body{
+
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+header{
+	text-align: center;
+}
+
+.contenido{
+
+	text-align: center;
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+	background: #ffffff;
+
+	padding: 40px 20px 0px 20px;
+
+	color: #000000;
+
+}
+
+.boton{
+
+	text-align: center;
+
+	width: 300px;
+
+	display: inline-block;
+
+	vertical-align: middle;
+
+	margin-bottom: 60px;
+
+	font-size: 13px;
+
+}
+
+.boton button{
+
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;
+
+	box-shadow: inset 0 1px 0 0 #fff;
+
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+
+	background: -moz-linear-gradient( center top, #ffffff 5%, #ffffff 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d1d1d1');
+
+	background-color: #fff;
+
+	-moz-border-radius: 6px;
+
+	-webkit-border-radius: 6px;
+
+	border-radius: 6px;
+
+	border: 1px solid #dcdcdc;
+
+	display: inline-block;
+
+	color: #000000;
+
+	font-family: Helvetica;
+
+	font-size: 13px;
+
+	font-weight: 700;
+
+	padding: 6px 24px;
+
+	text-decoration: none;
+
+	text-shadow: 1px 1px 0 #fff;
+
+	cursor: pointer;
+
+	display: block;
+
+	margin: 5px auto 0px auto;
+
+	outline: 0px;
+
+}
+
+.boton button:hover{
+
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+
+	background: -moz-linear-gradient( center top, #449eff 0, #ffffff 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1d1d1', endColorstr='#ffffff');
+
+	background-color: #ffffff;
+
+}
+
+footer{
+
+	text-align: center;
+
+	font-weight: bold;
+
+	font-size: 13px;
+
+	padding: 10px;  
+
+}
